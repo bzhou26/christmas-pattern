@@ -54,7 +54,6 @@ class Christmas:
             print(result_pattern)
             return result_pattern
 
-
     def __print_line_pattern(self, pattern, centre_list, extend_length, total_length):
         """
         This method is to create one line of pattern

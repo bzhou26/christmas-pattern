@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- encoding:utf-8 -*-
+
 import io
 import sys
 import unittest.mock

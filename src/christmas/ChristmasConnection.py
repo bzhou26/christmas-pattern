@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- encoding:utf-8 -*-
+
 import sys
 import logging
 from .Christmas import Christmas
@@ -12,7 +15,7 @@ class ChristmasConnection:
 
     def __init__(self):
         """
-
+        initial supported command list
         """
         self.christmas = Christmas()
 
@@ -53,7 +56,6 @@ class ChristmasConnection:
         command_name = elements[0]
         args = elements[1:]
 
-        # self.logger.debug(args)
         if self.arg_error(command_name, len(args)):
             return
         if command_name in self.commands:
