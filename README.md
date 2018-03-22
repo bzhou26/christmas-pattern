@@ -19,7 +19,7 @@ we support 4 commands right now
     ```
     tree 5
     ```
-        You will see 
+        It will print the pattern as below
              *    
             ***   
            *****  
@@ -30,7 +30,7 @@ we support 4 commands right now
     ```
     x 5
     ```
-        You will see
+        It will print the pattern as below
            *   *
             * * 
              *  
@@ -41,11 +41,11 @@ we support 4 commands right now
     ``` 
     test
     ```
-    It will run all unit test cases, it will print error if any test case gets fail
+    It will run all unit test cases and it will print error if any test case gets failed.
     
            
 4. quit
     ```
     quit
     ```
-    You will exit the program
+    It will exit the program.
